@@ -85,18 +85,19 @@ const (
 	NOTE_MODE_KEYWORD      = "/"
 
 	// theme loosely based on https://github.com/GothenburgBitFactory/taskwarrior/blob/2.6.0/doc/rc/dark-256.theme
+  // https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 	TABLE_MAX_WIDTH      = 160 // keep it readable
 	TABLE_COL_GAP        = 2   // differentiate columns
 	MODE_HEADER          = 4
 	FG_DEFAULT           = 250
-	BG_DEFAULT_1         = 233
+	BG_DEFAULT_1         = 232
 	BG_DEFAULT_2         = 232
 	MODE_DEFAULT         = 0
-	FG_ACTIVE            = 233
+	FG_ACTIVE            = 232
 	BG_ACTIVE            = 250
-	BG_PAUSED            = 236 // task that has been started then stopped
-	FG_PRIORITY_CRITICAL = 160
-	FG_PRIORITY_HIGH     = 166
+	BG_PAUSED            = 232 // task that has been started then stopped
+	FG_PRIORITY_CRITICAL = 178
+	FG_PRIORITY_HIGH     = 033
 	FG_PRIORITY_NORMAL   = FG_DEFAULT
 	FG_PRIORITY_LOW      = 245
 	FG_NOTE              = 240

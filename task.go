@@ -231,7 +231,8 @@ func (t *Task) LongSummary() string {
 	lastNote := noteLines[len(noteLines)-1]
 
 	if len(lastNote) > 0 {
-		return t.Summary + " " + NOTE_MODE_KEYWORD + " " + lastNote
+		//return t.Summary + " " + NOTE_MODE_KEYWORD + " " + lastNote
+		return t.Summary + " " + NOTE_MODE_KEYWORD + " "
 	}
 	return t.Summary
 }
